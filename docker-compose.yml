@@ -7,6 +7,6 @@ services:
   upgrade-pinned:
     image: redis:6.2.5@sha256:c98f0230b5f1831f4f5dd764c4ea8ef11d3e3a1a3593278eb952373d97c82b27
   noupgrade-pinned:
-    image: mysql:8.0.28@sha256:8cdf596eb3fba84ae6d0ad683d330dcaf87ef8fb51e4d5dd9f1e289c5012e0f8 
+    image: mysql:8.0.28@sha256:1c75ba7716c6f73fc106dacedfdcf13f934ea8c161c8b3b3e4618bcd5fbcf195 
   noupgrade-unpinned:
     image: ubuntu:20.04
