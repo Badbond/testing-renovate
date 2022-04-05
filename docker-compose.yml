@@ -5,7 +5,7 @@ services:
   upgrade-unpinned-combined:
     image: renovate/renovate:32.11.2
   upgrade-pinned:
-    image: redis:6.2.5@sha256:c98f0230b5f1831f4f5dd764c4ea8ef11d3e3a1a3593278eb952373d97c82b27
+    image: redis:6.2.6@sha256:69a3ab2516b560690e37197b71bc61ba245aafe4525ebdece1d8a0bc5669e3e2
   noupgrade-pinned:
     image: mysql:8.0.28@sha256:8cdf596eb3fba84ae6d0ad683d330dcaf87ef8fb51e4d5dd9f1e289c5012e0f8 
   noupgrade-unpinned:
