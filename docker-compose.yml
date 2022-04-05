@@ -1,7 +1,7 @@
 version: 3
 services:
   upgrade-unpinned:
-    image: nginx:1.21.5
+    image: nginx:1.21.6
   upgrade-unpinned-combined:
     image: renovate/renovate:32.11.2
   upgrade-pinned:
