@@ -9,7 +9,7 @@ services:
   # Note, this does not reflect the two different versions for same package PR.
   # Should also produce suggested commit message with GitHub links.
   upgrade-unpinned-combined:
-    image: renovate/renovate:32.99.11
+    image: renovate/renovate:32.99.12
 
   # Should create upgrade PR to new version and update digest.
   upgrade-pinned:
