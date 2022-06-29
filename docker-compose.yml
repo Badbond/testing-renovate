@@ -2,7 +2,7 @@ version: 3
 services:
   # Should create upgrade PR to new version without digest
   upgrade-unpinned:
-    image: nginx:1.22.0
+    image: nginx:1.23.0
 
   # Should create upgrade PR to new version without digest
   # but combined with `Dockerfile` which's digest is pinned and updated.
