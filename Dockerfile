@@ -1,1 +1,1 @@
-FROM renovate/renovate:32.11.2@sha256:5e666d58e713d77de68ca29d7d46dd9d5d1735a745e6a287a6fd17cbeade85c9
+FROM renovate/renovate:32.11.2@sha256:d817166acbd37d17d0fdd22db250a4edcda037a2e5f4ff6dc653c771c99cff4f
