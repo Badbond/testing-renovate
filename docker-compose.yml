@@ -8,7 +8,7 @@ services:
   # but combined with `Dockerfile` which's digest is pinned and updated.
   # Note, this does not reflect the two different versions for same package PR.
   upgrade-unpinned-combined:
-    image: renovate/renovate:32.99.11
+    image: renovate/renovate:32.99.12
 
   # Should create upgrade PR to new version and update digest.
   upgrade-pinned:
