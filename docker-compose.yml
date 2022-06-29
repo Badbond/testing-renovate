@@ -13,7 +13,7 @@ services:
 
   # Should create upgrade PR to new version and update digest.
   upgrade-pinned:
-    image: redis:7.0.1@sha256:96c5620546f79b323866e7107406d165ec1020f0754b2fe2fc3067938a085841
+    image: redis:7.0.2@sha256:d581aded52343c461f32e4a48125879ed2596291f4ea4baa7e3af0ad1e56feed
 
   # Should create upgrade PR for new digest but no new version (current digest is dummy)
   noupgrade-pinned:
